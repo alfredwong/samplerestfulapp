@@ -1,0 +1,6 @@
+version: "3"
+services:
+  api:
+    image: alfredwong/samplerestfulapp
+    ports:
+      - "43000:3000"
